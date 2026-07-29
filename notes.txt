@@ -1,0 +1,9 @@
+
+
+cd "/Users/anveshan/Library/CloudStorage/OneDrive-OracleCorporation/anveshana.net/anveshana-cms"
+npm install
+npm run build
+
+Open Template.md, fill the content for new article, rull npm run build and depoy the dist folder.
+
+https://arxiv.org/list/cs.AI/recent

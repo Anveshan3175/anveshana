@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Primary SEO -->
+<title>{{TITLE}} | Anveshana.net</title>
+<meta name="description" content="{{SUMMARY}}">
+<meta name="keywords" content="latest AI news, {{TAG}}, artificial intelligence news, {{FIELD}}">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="Anveshana.net">
+<link rel="canonical" href="{{CANONICAL}}">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Anveshana.net">
+<meta property="og:url" content="{{CANONICAL}}">
+<meta property="og:title" content="{{TITLE}}">
+<meta property="og:description" content="{{SUMMARY}}">
+<meta property="article:published_time" content="{{DATE_ISO}}">
+<meta property="article:section" content="{{FIELD}}">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{TITLE}}">
+<meta name="twitter:description" content="{{SUMMARY}}">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{TITLE_JSON}}",
+  "description": "{{SUMMARY_JSON}}",
+  "datePublished": "{{DATE_ISO}}",
+  "articleSection": "{{FIELD_JSON}}",
+  "publisher": { "@type": "Organization", "name": "Anveshana.net", "url": "https://www.anveshana.net/" },
+  "mainEntityOfPage": "{{CANONICAL}}"
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+<style>
+  .article-page{ max-width: 780px; margin: 0 auto; padding: clamp(32px, 5vw, 64px) clamp(16px, 4vw, 24px) 80px; }
+  .back-link{
+    display:inline-flex; align-items:center; gap:6px;
+    font-family:'IBM Plex Mono', monospace; font-size:0.78rem; letter-spacing:0.03em;
+    color: var(--pen-blue); text-decoration:none; margin-bottom: 28px;
+  }
+  .back-link:hover{ color: var(--discovery-amber); }
+</style>
+</head>
+<body>
+<div class="site">
+
+  <header class="masthead">
+    <div class="brand-row">
+      <a href="/" style="display:contents; text-decoration:none;">
+        <div class="discovery-mark" aria-hidden="true">
+          <div class="ring"></div>
+          <div class="core"></div>
+        </div>
+      </a>
+      <div class="brand-block">
+        <a href="/" style="text-decoration:none;"><div class="site-name">Anveshana<span class="dot">.</span>net</div></a>
+        <div class="tagline">Anveshan — Where Curiosity Meets Discovery</div>
+      </div>
+    </div>
+    <nav class="menu">
+      <a href="/">Home</a>
+      <a href="/#ai">AI</a>
+      <a href="/#science">Science</a>
+      <a href="/#biotech">Biotech</a>
+    </nav>
+  </header>
+
+  <main class="article-page">
+    <a class="back-link" href="/">&larr; Back to Anveshana.net</a>
+
+    <article class="scholarly">
+      <div class="article-head">
+        <span class="article-tag">{{TAG}}</span>
+        <span class="article-meta">{{READ_TIME}} min read</span>
+      </div>
+      <h1 class="article-title">{{TITLE}}</h1>
+      <div class="article-body">
+{{BODY_HTML}}
+      </div>
+      <div class="article-footer">
+        <span>Field: {{FIELD}}</span>
+        <span>{{DATE_DISPLAY}}</span>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <span>© 2026 Anveshana.net</span>
+    <span>Research &amp; News in AI · Science · Biotech</span>
+  </footer>
+
+</div>
+</body>
+</html>
