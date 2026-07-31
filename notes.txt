@@ -6,4 +6,8 @@ npm run build
 
 Open Template.md, fill the content for new article, rull npm run build and depoy the dist folder.
 
+
+
+Where to get updates ?
+https://learn.chatgpt.com/docs?utm_source=chatgpt.com
 https://arxiv.org/list/cs.AI/recent
