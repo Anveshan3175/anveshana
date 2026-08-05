@@ -11,3 +11,12 @@ Open Template.md, fill the content for new article, rull npm run build and depoy
 Where to get updates ?
 https://learn.chatgpt.com/docs?utm_source=chatgpt.com
 https://arxiv.org/list/cs.AI/recent
+
+Open Ai updates:
+https://openai.com/news/
+
+For specific updates, use:
+Product releases — new models and product launches - https://openai.com/news/product-releases/ 
+ChatGPT release notes — ongoing ChatGPT feature updates - https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+Model release notes — model launches, updates, and retirements - https://help.openai.com/en/articles/9624314-model-release-notes
+Engineering updates — technical implementation and developer-facing announcements - https://openai.com/news/engineering/
