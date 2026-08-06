@@ -19,4 +19,7 @@ For specific updates, use:
 Product releases — new models and product launches - https://openai.com/news/product-releases/ 
 ChatGPT release notes — ongoing ChatGPT feature updates - https://help.openai.com/en/articles/6825453-chatgpt-release-notes
 Model release notes — model launches, updates, and retirements - https://help.openai.com/en/articles/9624314-model-release-notes
-Engineering updates — technical implementation and developer-facing announcements - https://openai.com/news/engineering/
+Engineering updates — technical implementation and developer-facing announcements - https://openai.com/news/engineering/2
+
+Claude Updates
+https://code.claude.com/docs/en/whats-new
