@@ -6,6 +6,8 @@ npm run build
 
 Open Template.md, fill the content for new article, rull npm run build and depoy the dist folder.
 
+Google Search Console
+https://search.google.com/search-console?utm_source=about-page&resource_id=sc-domain:anveshana.net
 
 
 Where to get updates ?
