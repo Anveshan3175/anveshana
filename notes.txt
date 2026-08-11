@@ -25,3 +25,5 @@ Engineering updates — technical implementation and developer-facing announceme
 
 Claude Updates
 https://code.claude.com/docs/en/whats-new
+
+https://www.anthropic.com/news
