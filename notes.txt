@@ -26,4 +26,13 @@ Engineering updates — technical implementation and developer-facing announceme
 Claude Updates
 https://code.claude.com/docs/en/whats-new
 
-https://www.anthropic.com/news
+https://www.anthropic.com/news  -- Claude 
+https://openai.com/news/company-announcements/  -- chatgpt
+https://deepmind.google/blog/  -- Gemini
+https://ai.meta.com/blog/  -- Meta
+https://x.ai/news  -- Grok
+https://www.alibabacloud.com/blog -- Qwen
+https://www.kimi.com/blog/ -- Moonshot AI
+https://deepseek.ai/blog  -- DeepSeek
+https://zhipuai.ai/blog  -- GLM
+https://mistral.ai/news/
